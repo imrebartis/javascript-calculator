@@ -1,0 +1,16 @@
+{
+  "name": "javascript-calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.10.0",
+    "live-server": "^1.2.2"
+  }
+}

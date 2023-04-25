@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>JavaScript Calculator</h1>
+    </header>
+    <div role="doc-subtitle">Don't divide by zero</div>
+
+    <section id="calculator" class="calculator">
+      <button id="clear" class="clear" data-cy="clear">C</button>
+
+      <div id="viewer" class="viewer" data-cy="viewer">0</div>
+
+      <button class="num" data-num="7" data-cy="7">7</button>
+      <button class="num" data-num="8" data-cy="8">8</button>
+      <button class="num" data-num="9" data-cy="9">9</button>
+      <button data-ops="plus" class="ops" data-cy="plus">+</button>
+
+      <button class="num" data-num="4" data-cy="4">4</button>
+      <button class="num" data-num="5" data-cy="5">5</button>
+      <button class="num" data-num="6" data-cy="6">6</button>
+      <button data-ops="minus" class="ops" data-cy="minus">-</button>
+
+      <button class="num" data-num="1" data-cy="1">1</button>
+      <button class="num" data-num="2" data-cy="2">2</button>
+      <button class="num" data-num="3" data-cy="3">3</button>
+      <button data-ops="times" class="ops" data-cy="times">*</button>
+
+      <button class="num" data-num="0" data-cy="0">0</button>
+      <button class="num" data-num="." data-cy="num">.</button>
+      <button id="equals" class="equals" data-result="" data-cy="equals">
+        =
+      </button>
+      <button data-ops="divided by" class="ops" data-cy="divided-by">/</button>
+    </section>
+
+    <button id="reset" class="reset" data-cy="reset">Reset calculator?</button>
+    <script src="index.js"></script>
+  </body>
+</html>
