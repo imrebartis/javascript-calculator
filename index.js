@@ -45,8 +45,6 @@ const calculator = () => {
     oldNum = theNum;
     theNum = '';
     operator = this.getAttribute('data-ops');
-
-    equals.setAttribute('data-result', ''); // Reset result in attr
   }
 
   // When: Equals is clicked. Calculate result
@@ -93,7 +91,6 @@ const calculator = () => {
 
     // Display result
     viewer.innerHTML = resultNum;
-    equals.setAttribute('data-result', resultNum);
 
     // Reset oldNum & keep result
     oldNum = 0;
@@ -105,7 +102,6 @@ const calculator = () => {
     oldNum = '';
     theNum = '';
     viewer.innerHTML = '0';
-    equals.setAttribute('data-result', resultNum);
   };
 
   /* The click events */

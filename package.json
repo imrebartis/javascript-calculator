@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "live-server",
     "test": "npx cypress open"
   },
   "keywords": [],
